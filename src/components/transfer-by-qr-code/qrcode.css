@@ -1,0 +1,53 @@
+.qrcode-page {
+    height: 60vh;
+    background: white;
+}
+
+.logo-img {
+    width: 200px;
+    height: 100px;
+}
+
+.pay-with {
+    width: 200px!important;
+    height: 50px!important;
+    border-radius: 20px!important;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+}
+
+.qrcode {
+    width: 250px;
+    height: 250px;
+    margin-left: 5rem;
+}
+
+.send-amount {
+    visibility: hidden;
+}
+
+.show-send-amount {
+    visibility: visible;
+    z-index: 100;
+}
+
+@media screen and (max-width: 468px) {
+    .qrcode-page {
+        height: 80vh;
+    }
+    .logo-img {
+        width: 100px;
+        height: 50px;
+        margin-left: 3rem;
+    }
+    .qrcode {
+        margin-top: 4rem;
+    }
+    .pay-with {
+        width: 150px!important;
+        height: 40px!important;
+        font-size: 20px;
+    }
+}

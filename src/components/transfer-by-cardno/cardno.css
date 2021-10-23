@@ -1,0 +1,13 @@
+.cardno-page {
+    height: 60vh;
+    background: white;
+}
+
+@media screen and (max-width: 468px) {
+    .cardno-page {
+        height: 80vh;
+    }
+    .transfer-btn {
+        margin-top: 3rem;
+    }
+}
