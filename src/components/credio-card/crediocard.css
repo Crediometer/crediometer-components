@@ -1,0 +1,82 @@
+.credio-card-container {
+    width: 90%!important;
+    height: 100%!important;
+}
+
+.credio-card {
+    width: 24rem;
+    height: 12rem;
+}
+
+.credio-card:nth-child(2) {
+    margin-left: -5rem!important;
+}
+
+.credioCardHeading {
+    font-size: 24px;
+    font-weight: bold;
+    width: 65%;
+    line-height: 30px;
+}
+
+.cardi {
+    position: absolute;
+    left: 75%;
+    top: 45%;
+    opacity: 0.5;
+    font-size: 60px;
+}
+
+.viewMore {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (min-width: 1199px) and (max-width: 1400px) {
+    .credio-card-container {
+        width: 70%;
+    }
+    .credio-card {
+        width: 20rem;
+    }
+}
+
+@media (min-width:991px) and (max-width: 1199px) {
+    .credio-card-container {
+        width: 100%;
+    }
+    .credio-card {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .credio-card {
+        width: 18rem!important;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 768px) {
+    .credio-card-container {
+        position: absolute;
+        left: 10%;
+    }
+    .credio-card {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .credio-card-container {
+        width: 50%!important;
+        margin-left: 3rem!important;
+    }
+    .credio-card {
+        width: 18rem;
+    }
+}

@@ -1,0 +1,46 @@
+.transfer-bw-acct {
+    height: 60vh!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-group {
+    padding-left: 10rem;
+}
+
+.input-form {
+    font-size: 24px;
+    font-weight: 700;
+    height: 70px;
+    border: 2px solid black;
+}
+
+.transfer-btn {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.verification {
+    visibility: hidden;
+}
+
+.show-verification {
+    visibility: visible;
+    z-index: 100;
+}
+
+@media screen and (max-width: 468px) {
+    .input-group {
+        padding-left: 4rem;
+    }
+    .transfer-btn {
+        position: absolute;
+        left: 20%;
+    }
+    .transfer-bw-acct {
+        height: 80vh!important;
+    }
+}

@@ -1,0 +1,36 @@
+.transfer-to-other-bank-page {
+    height: 80vh;
+    background: white;
+}
+
+.other-bank-form {
+    font-size: 24px;
+    font-weight: 700;
+    height: 60px;
+    border: 2px solid black;
+}
+
+.transfer-btn-other-bank {
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bank-select {
+    height: 60px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 468px) {
+    .transfer-to-other-bank-page {
+        height: 90vh;
+    }
+    .transfer-btn-other-bank {
+        position: absolute;
+        top: 82%;
+        left: 30%;
+    }
+}

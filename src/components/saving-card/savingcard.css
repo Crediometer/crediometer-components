@@ -1,0 +1,56 @@
+.saving-card {
+    margin-left: 3rem!important;
+}
+
+.saving-card:hover,
+h4 {
+    color: black;
+}
+
+.card-saving {
+    width: 15rem;
+    height: 12rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.saving-card-heading {
+    font-size: 23px;
+    font-weight: bold;
+    width: 15rem;
+    margin-left: -0.5rem!important;
+    text-decoration: none;
+}
+
+.saving-card-heading:hover {
+    color: white;
+}
+
+.fas {
+    font-size: 40px;
+    opacity: 0.7;
+}
+
+@media (min-width: 765px) and (max-width: 1024px) {
+    .saving-card {
+        margin-left: 1rem!important;
+    }
+    .card-saving {
+        width: 14rem;
+    }
+    .saving-card-heading {
+        width: 14rem;
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 469px) and (max-width: 764px) {
+    .saving-card {}
+}
+
+@media screen and (max-width: 468px) {
+    .saving-card {
+        width: 70%!important;
+        margin-left: 4rem!important;
+    }
+}

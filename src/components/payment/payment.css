@@ -1,0 +1,205 @@
+.payment-page {
+    width: 90%!important;
+    height: 110vh!important;
+    background: white;
+    border-radius: 10px!important;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.balance-card {
+    width: 36rem;
+    height: 10rem;
+    color: white;
+    border: none;
+    margin-top: 1rem!important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h5 {
+    color: black;
+}
+
+.view-detail {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.from-to-export {}
+
+.from-card {
+    width: 15rem!important;
+    height: 4rem!important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.date-input {
+    margin-left: -6rem!important;
+    width: 5rem!important;
+    margin-top: -2rem!important;
+}
+
+.btn-light {
+    height: 4rem;
+    width: 8rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.operational-history {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.operational-card {
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 5rem!important;
+}
+
+.line1 {
+    width: 100%;
+    height: 0%;
+    border: 1px solid black;
+    position: absolute;
+    top: 15%;
+}
+
+.line2 {
+    width: 100%;
+    height: 0%;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%;
+}
+
+.line3 {
+    width: 100%;
+    height: 0%;
+    border: 1px solid black;
+    position: absolute;
+    top: 55%;
+}
+
+.line4 {
+    width: 100%;
+    height: 0%;
+    border: 1px solid black;
+    position: absolute;
+    top: 75%;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 5%;
+    padding-top: 1rem;
+}
+
+.to-from {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 25%;
+    padding-top: 1rem;
+}
+
+.method {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    padding-top: 1rem;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 75%;
+    padding-top: 1rem;
+}
+
+.today-date5 {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.today-date6 {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+
+.today-date7 {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+
+.see-more {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+.more-icon {
+    margin-left: 0.5rem;
+}
+
+.more-icon:hover {
+    color: black;
+}
+
+@media (min-width:468px) and (max-width: 768px) {
+    .balance-card {
+        width: 24rem;
+        height: 18rem;
+    }
+    .payment-page {
+        height: 100%!important;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .payment-page {
+        height: 100%!important;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .balance-card {
+        width: 17rem;
+        height: 18rem;
+    }
+    .date-input {
+        margin-left: 1rem!important;
+    }
+    .operational-history {
+        font-size: 17px;
+    }
+    .from-card {
+        margin-top: 1rem;
+    }
+    .operational-card {
+        width: 17.5rem;
+        margin-left: -0.5rem!important;
+        margin-bottom: 2rem;
+    }
+}
