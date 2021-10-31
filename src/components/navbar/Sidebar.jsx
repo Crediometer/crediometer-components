@@ -5,6 +5,8 @@ import blackn from "../../assests/blackn.png";
 import SavingCard from "../saving-card/SavingCard";
 import CredioCard from "../credio-card/CredioCard";
 import Payment from "../payment/Payment";
+import Contact from "../contact-us/contact";
+import Setting from "../Settings/Settings";
 
 
 const Sidebar1 = () => {
@@ -13,6 +15,8 @@ const Sidebar1 = () => {
     <Route path="/transactions" component={CredioCard} />
     <Route path="/transfers" component={SavingCard} />
     <Route path="/balance" component={Payment} />
+    <Route path="/settings" component={Setting} />
+    <Route path="/contact" component={Contact} />
 
     <div>
       <nav class="main-menu">
@@ -99,7 +103,7 @@ const Sidebar1 = () => {
             </Link>
           </li>
           <li>
-            <Link to="/profile">
+            <Link to="/settings">
                 <div className="icon">
                   <i class="fas fa-user fa-lg"></i>
                 </div>

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (min-width: 720px) {
+  .navbar {
+    display : none
+  }
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 0px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+.topbarLogo {
+  float: center;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 10px;
+
+}
+
